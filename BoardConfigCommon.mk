@@ -90,6 +90,10 @@ TARGET_DISPLAY_USE_RETIRE_FENCE := true
 TARGET_USES_C2D_COMPOSITION := true
 BOARD_EGL_CFG := device/htc/msm8974-common/configs/egl.cfg
 
+# GPS
+BOARD_HAVE_NEW_QC_GPS :=
+TARGET_NO_RPC := true
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
