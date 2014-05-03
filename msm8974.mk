@@ -206,7 +206,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     kernel/htc/msm8974/drivers/staging/prima/firmware_bin/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     kernel/htc/msm8974/drivers/staging/prima/firmware_bin/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-    kernel/htc/msm8974/drivers/staging/prima/firmware_bin/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini
+    kernel/htc/msm8974/drivers/staging/prima/firmware_bin/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
 
 # WPA supplicant config
 PRODUCT_COPY_FILES += \
