@@ -203,10 +203,10 @@ PRODUCT_PACKAGES += \
     libnetcmdiface
 
 # Wifi firmware
-PRODUCT_PACKAGES += \
-    WCNSS_cfg.dat \
-    WCNSS_qcom_cfg.ini \
-    WCNSS_qcom_wlan_nv.bin
+PRODUCT_COPY_FILES += \
+    kernel/htc/msm8974/drivers/staging/prima/firmware_bin/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+    kernel/htc/msm8974/drivers/staging/prima/firmware_bin/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
+    kernel/htc/msm8974/drivers/staging/prima/firmware_bin/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini
 
 # WPA supplicant config
 PRODUCT_COPY_FILES += \
